@@ -28,3 +28,7 @@ https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data
 ### Rest_of_the_World/confirmed_tests_rest_of_world.csv
 Confirmed cases of COVID-19 for the rest of the world.
 https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data
+
+### Intervention_Data/Europe_intervention_data.csv
+Intervention Data for European countries.
+https://github.com/s-mishra/bench-marking-samplers-covid
