@@ -1,0 +1,77 @@
+---
+title: "Data for CoDatMo"
+author: "Breck Baldwin"
+date: "3/25/2021"
+output: 
+  html_document:
+    includes:
+       in_header: _html/ga.html
+---
+The global setup for this Rmarkdown document is:
+```{r setup, include=TRUE}
+knitr::opts_chunk$set(
+	echo = TRUE,
+	message = FALSE,
+	warning = FALSE,
+	results = "hide",
+	error = FALSE,
+	comment = ''
+)
+```
+
+# Welcome to the CoDatMo data repository
+
+This document exists in the repository at [https://github.com/codatmo/Data/](https://github.com/codatmo/Data) as `index.Rmd` and rendered in html as [https://github.com/codatmo/Data/index.html](https://github.com/codatmo/Data/index.html).
+
+This model is part of the CoDatMo (Co)vid (Dat)a (Mo)deling site (https://codatmo.github.io/) which is intended to replicate and make available important COVID models written in Bayesian modeling languages like Stan or PyMC3. 
+
+# Contents
+
+This page explain various data sets in the repo and show how to load them in R data frames. 
+
+## UK 
+
+```{r}
+# be sure to set working directory correctly
+
+deaths <- read.csv("NHS_Regions_Datasets/nhs_regions_deaths.csv")
+deaths_t <- t(deaths)
+
+```
+
+Deaths are collected weekly with 54 weeks in a column.
+
+```{r}
+print(deaths[,1])
+```
+
+There are 7 regions
+
+```{r}
+library(tidyr)
+calls_111 <- read.csv("NHS_Regions_Datasets/nhs_regions_111_calls.csv",
+                      header=FALSE, row.names=NULL)
+calls_111_t <- t(calls_111)
+calls_111.df <- data.frame(calls_111_t)
+colnames(calls_111.df) <- c('date',calls_111[2:8,1])
+calls_111.df <- calls_111.df[c(-1,-2),] #get rid of names and source
+calls_111_long.df <- gather(calls_111.df, loc, call_count, 2:8)
+calls_111_long.df$calls <- as.numeric(calls_111_long.df$call_count)
+
+```
+
+```{r}
+library(ggplot2)
+library(gridExtra)
+
+ggplot(calls_111_long.df) +
+  aes(x=date, y=calls, group=loc, color=loc) +
+  geom_line() -> p1
+
+ggplot(data.df) +
+  aes(x=1:length(calls_111), y=deaths) +
+  geom_point() -> p2
+
+grid.arrange(p1, p2, ncol=2)
+```
+
