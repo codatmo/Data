@@ -92,14 +92,18 @@ p2
 
 ```
 
-Serializing data for use by other projects. Known uses:
-
-* [https://github.com/codatmo/Liverpool/model_reproduction_checklist.html](https://github.com/codatmo/Liverpool/model_reproduction_checklist.html). 
-
-
+## Serialize data
 ```{r}
 saveRDS(calls_111.df, "NHS_Regions_Datasets/nhs_regions_111_calls.Rds")
 saveRDS(deaths.df, "NHS_Regions_Datasets/nhs_regions_deaths.Rds")
 
 ```
+
+Serializing data for use by other projects. Known uses:
+
+* [https://codatmo.github.io/Liverpool/model_reproduction_checklist.html](https://codatmo.github.io/Liverpool/model_reproduction_checklist.html)
+
+
+
+
 
