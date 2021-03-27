@@ -23,6 +23,8 @@ knitr::opts_chunk$set(
 
 This document exists in the repository at [https://github.com/codatmo/Data/](https://github.com/codatmo/Data) as `index.Rmd` and rendered in html as [https://github.com/codatmo/Data/index.html](https://github.com/codatmo/Data/index.html).
 
+Additional data and descriptions are at [https://github.com/codatmo/Data/blob/main/README.md](https://github.com/codatmo/Data/blob/main/README.md) which also contains a link to this file. 
+
 This model is part of the CoDatMo (Co)vid (Dat)a (Mo)deling site (https://codatmo.github.io/) which is intended to replicate and make available important COVID models written in Bayesian modeling languages like Stan or PyMC3. 
 
 # Contents
@@ -32,20 +34,35 @@ This page explain various data sets in the repo and show how to load them in R d
 ## UK 
 
 ```{r}
+library(tidyr)
+
 # be sure to set working directory correctly
 
-deaths <- read.csv("NHS_Regions_Datasets/nhs_regions_deaths.csv")
+deaths <- read.csv("NHS_Regions_Datasets/nhs_regions_deaths.csv",
+                   header=FALSE)
 deaths_t <- t(deaths)
+region_names <- deaths_t[1,2:8]
+deaths.df <- data.frame(deaths_t[c(-1,-2),])
+colnames(deaths.df) <- c('week', region_names)
+deaths_long.df <- gather(deaths.df,'area','deaths',2:8)
+deaths_long.df$death_count <- as.numeric(deaths_long.df$deaths)
+deaths_long.df$date <- as.Date(deaths_long.df$week)
 
 ```
 
-Deaths are collected weekly with 54 weeks in a column.
+Deaths are collected weekly.
 
 ```{r}
-print(deaths[,1])
+library(ggplot2)
+
+ggplot(deaths_long.df) +
+  aes(x=date, y=death_count, group=area, color=area) +
+  geom_line() -> p1
+
+p1
+
 ```
 
-There are 7 regions
 
 ```{r}
 library(tidyr)
@@ -53,10 +70,13 @@ calls_111 <- read.csv("NHS_Regions_Datasets/nhs_regions_111_calls.csv",
                       header=FALSE, row.names=NULL)
 calls_111_t <- t(calls_111)
 calls_111.df <- data.frame(calls_111_t)
-colnames(calls_111.df) <- c('date',calls_111[2:8,1])
+colnames(calls_111.df) <- c('date',calls_111_t[1,2:8])
 calls_111.df <- calls_111.df[c(-1,-2),] #get rid of names and source
-calls_111_long.df <- gather(calls_111.df, loc, call_count, 2:8)
+calls_111_long.df <- gather(calls_111.df, 'loc', 'call_count', 2:8)
 calls_111_long.df$calls <- as.numeric(calls_111_long.df$call_count)
+
+head(calls_111_long.df)
+
 
 ```
 
@@ -66,12 +86,20 @@ library(gridExtra)
 
 ggplot(calls_111_long.df) +
   aes(x=date, y=calls, group=loc, color=loc) +
-  geom_line() -> p1
+  geom_line() -> p2
 
-ggplot(data.df) +
-  aes(x=1:length(calls_111), y=deaths) +
-  geom_point() -> p2
+p2
 
-grid.arrange(p1, p2, ncol=2)
+```
+
+Serializing data for use by other projects. Known uses:
+
+* [https://github.com/codatmo/Liverpool/model_reproduction_checklist.html](https://github.com/codatmo/Liverpool/model_reproduction_checklist.html). 
+
+
+```{r}
+saveRDS(calls_111.df, "NHS_Regions_Datasets/nhs_regions_111_calls.Rds")
+saveRDS(deaths.df, "NHS_Regions_Datasets/nhs_regions_deaths.Rds")
+
 ```
 
