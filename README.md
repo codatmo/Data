@@ -1,5 +1,10 @@
 # Data
 Collection of open-source data sources for the United Kingdom and the rest of the world. To be used for testing of the various models.
+
+## Example data read into R and serialized
+
+NHS and 111_calls data are readin, graphed and serialzied as described in [https://codatmo.github.io/Data/](https://codatmo.github.io/Data/)
+
 ## Description of dataset and link to source: 
 ### United Kingdom/ons_deaths_NHS.csv
 Number of COVID-19 related deaths at NHS regions scale.
