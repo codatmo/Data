@@ -1,0 +1,94 @@
+MedDRA_Code,English,german,italian,portuguese,spanish
+10016790,Flu,Grippe,Influenza,Gripe,Gripe
+10016791,Flu like symptoms,Grippeartige Symptome,Sintomi simil-influenzali,Sintomas gripais,Síntomas de tipo gripal
+10016793,Flu syndrome,Grippesyndrom,Sindrome di influenza,Síndrome gripal,Síndrome gripal
+10016795,Flu-like aching,Grippeartige Schmerzen,Dolore simil-influenzale,Dor gripal,Dolor tipo gripal
+10016795,Flu-like aching,Grippeartige Schmerzen,Dolore simil-influenzale,Dor gripal,Dolor tipo gripal
+10016796,Flu-like illness,Grippeartige Erkrankung,Malattia simil-influenzale,Doença gripal,Enfermedad tipo gripal
+10016797,Flu-like symptoms,Grippeartige Symptome,Sintomi simil-influenzali,Sintomas gripais,Síntomas tipo gripal
+10022000,Influenza,Grippe,Influenza,Gripe,Influenza
+10022004,Influenza like illness,Grippeaehnliche Erkrankung,Malattia simil-influenzale,Estado gripal,Enfermedad de tipo gripal
+10022006,Influenza with other manifestations,Influenza mit sonstigen Manifestationen,Influenza con altre manifestazioni,Gripe com outras manifestações,Gripe con otras manifestaciones
+10022007,Influenza with other respiratory manifestations,Influenza mit sonstigen Manifestationen der Atemwege,Influenza con altre manifestazioni respiratorie,Gripe com outras manifestações respiratórias,Gripe con otras manifestaciones respiratorias
+10022009,Influenza-like symptoms,Influenza-artige Symptome,Sintomi simili-influenzali,Sintomas tipo gripe,Síntomas de tipo gripal
+10042807,Syndrome flu,Syndrom Grippe,Sindrome influenzale,Síndrome gripal,Síndrome gripal
+10061907,Parainfluenzae virus infection ,Parainfluenzavirus-Infektion,Infezione da virus parainfluenzale,Infecções por vírus da parainfluenza,Infección por virus parainfluenza
+10052545,Flu symptoms,Grippesymptome,Sintomi di influenza,Sintomas de gripe,Síntomas de la gripe
+10077938,H1N3 influenza,H1N3-Influenza,Influenza H1N3,Influenza H1N3,Gripe H1N3
+10008532,Chills & fever,Schuettelfrost und Fieber,Brividi e febbre,Arrepios e febre,Escalofríos y fiebre
+10008533,Chills and fever,Schuettelfrost und Fieber,Brividi e febbre,Arrepios e febre,Escalofríos y fiebre
+10013697,Drug fever,Von Medikamenten ausgeloestes Fieber,Febbre da farmaci,Febre por efeito de fármaco,Fiebre medicamentosa
+10016289,Febrile reaction,Fiebrige Reaktion,Reazione febbrile,Reacção febril,Reacción febril
+10037688,Fever,Q-Fieber,Febbre Q,Febre Q,Fiebre Q
+10016559,Fever chills,Fieberschuetteln,Brividi di febbre,Arrepios da febre,Escalofrío febril
+10016563,Fever of unknown origin,Fieber unbekannter Ursache,Febbre di origine ignota,Febre de origem desconhecida,Fiebre de origen desconocido
+10019341,Heat production increased,Waermeerzeugung erhoeht,Produzione di calore aumentata,Produção de calor aumentada,Producción de calor aumentada
+10020083,High temperature,Temperatur hoch,Temperatura elevata,Temperatura alta,Temperatura elevada
+10020741,Hyperpyrexia ,Hyperpyrexie,Iperpiressia,Hiperpirexia,Hiperpirexia
+10020744,Hyperpyrexial,Hyperpyrexial,Iperpiretico,Hiperpirético,Hiperpirexia
+10022571,Intermittent pyrexia,Fieber intermittierend,Piressia intermittente,Pirexia intermitente,Pirexia intermitente
+10037511,PUO,FUU,PUO,Pirexia de origem desconhecida,FOD
+10037660,Pyrexia,Fieber,Piressia,Pirexia,Pirexia
+10037660,Pyrexia ,Fieber,Piressia,Pirexia,Pirexia
+10037661,Pyrexia abnormal,Pyrexie anomal,Piressia anormale,Pirexia anormal,Pirexia anormal
+10037662,Pyrexia drug,Pyrexie von Medikamenten ausgeloest,Farmaco antipiretico,Pirexia por fármaco,Pirexia por fármacos
+10037664,Pyrexia of unknown origin,Fieber unbekannter Ursache,Piressia di origine sconosciuta,Pirexia de origem desconhecida,Pirexia de origen desconocido
+10037668,Pyrexial,Fieberhaft,Piretico,Febril,Piréxico
+10037946,Reaction febrile,Reaktion fiebrig,Reazione febbrile,Reacção febril,Reacción febril
+10041021,Slight fever,Leichtes Fieber,Febbre lieve,Febre ligeira,Fiebre ligera
+10041523,Spiking temperature,Temperaturspitze,Febbre in aumento,Aumento da temperatura,Picos de fiebre
+10053568,Slight temperature,Leichte Temperatur,Leggera febbre,Temperatura ligeira,Leve aumento de temperatura
+10058698,Intermittent fever,Intermittierendes Fieber,Febbre intermittente,Febre intermitente,Fiebre intermitente
+10065377,Febricula,Febricula,Febbricola,Febrícula,Febrícula
+10065602,Fluctuating fever,Fluktuierendes Fieber,Febbre fluttuante,Febre flutuante,Fiebre fluctuante
+10066565,Chronic fever,Chronisches Fieber,Febbre cronica,Febre crónica,Fiebre crónica
+10072803,Acute febrile illness,Akute febrile Krankheit,Malattia febbrile acuta,Doença febril aguda,Enfermedad febril aguda
+10073718,Feverish,Fieberhaft,Febbricitante,Febril,Afiebrado
+10076724,Pyrogenic reaction,Pyrogene Reaktion,Reazione pirogena,Reacção pirogénica,Reacción pirógena
+10078900,Subfebrile,Subfebril,Subfebbrile,Subfebril,Subfebril
+10011224,Cough,Husten,Tosse,Tosse,Tos
+10011228,Cough increased,Husten vermehrt,Tosse aumentata,Tosse aumentada,Aumento de la tos
+10011229,Cough nonproductive,Husten nicht produktiv,Tosse non produttiva,Tosse não produtiva,Tos no productiva
+10011230,Cough resembling asthma,"Husten, Asthma gleichend",Tosse simile all'asma,Tosse semelhante a asma,Tos similar al asma
+10011232,Coughing,Husten,Tosse,Tosse,Tos
+10013773,Dry cough,Trockener Husten,Tosse secca,Tosse seca,Tos seca
+10023011,Irritant cough,Reizhusten,Tosse irritante,Tosse irritante,Tos irritativa
+10023018,Irritative cough,Reizhusten,Tosse irritativa,Tosse irritante,Tos irritativa
+10029450,Nocturnal cough,Naechtlicher Husten,Tosse notturna,Tosse nocturna,Tos nocturna
+10034707,Persistent dry cough,Anhaltender trockener Husten,Tosse secca persistente,Tosse persistente,Tos seca persistente
+10034712,Persistent non-productive cough,Anhaltender nicht-produktiver Husten,Tosse persistente non produttiva,Tosse seca persistente,Tos no productiva persistente
+10048381,Cough aggravated,Husten verschlimmert,Tosse aggravata,Tosse agravada,Empeoramiento de la tos
+10054919,Coughing after drug inhalation,Husten nach Inhalation von Arzneimitteln,Tosse dopo inalazione di farmaco,Tosse após inalação de medicamento,Tos después de inhalación de fármaco
+10066222,Paroxysmal cough,Paroxysmaler Husten,Tosse parossistica,Tosse paroxística,Tos paroxística
+10066522,Acute cough,Akuter Husten,Tosse acuta,Tosse aguda,Tos aguda
+10066649,Chronic post nasal drip,Chronischer retronasaler Ausfluss,Gocciolamento retronasale cronico,Corrimento nasal posterior crónico,Goteo postnasal crónico
+10066656,Chronic cough,Chronischer Husten,Tosse cronica,Tosse crónica,Tos crónica
+10070488,Upper-airway cough syndrome,Hustensyndrom der oberen Atemwege,Sindrome delle vie aeree superiori con tosse,Síndrome da tosse das vias respiratórias superiores,Síndrome de tos de las vías respiratorias superiores
+10070801,Persistent cough,Anhaltender Husten,Tosse persistente,Tosse persistente,Tos persistente
+10070853,Painful cough,Schmerzhafter Husten,Tosse dolorosa,Tosse dolorosa,Tos dolorosa
+10073575,Cough ineffective,Ineffektiver Husten,Tosse inefficiente,Tosse ineficaz,Tos ineficaz
+10073576,Cough weak,Husten schwach,Tosse debole,Tosse fraca,Tos débil
+10080781,Unexplained chronic cough,Nicht geklaerter chronischer Husten,Tosse cronica inspiegabile,Tosse crónica inexplicada,Tos crónica inexplicada
+10080782,Refractory chronic cough,Refraktaerer chronischer Husten,Tosse cronica refrattaria,Tosse crónica refractária,Tos crónica refractaria
+10002653,Anosmia,Anosmie,Anosmia,Anosmia,Anosmia
+10024877,Loss of smell,Verlust des Geruchssinns,Perdita dell'olfatto,Perda do olfacto,Pérdida de sensibilidad olfatoria
+10006335,Breathing abnormally deep,Anomal tiefes Atmen,Respirazione eccessivamente profonda,Respiração anormalmente profunda,Respiración anormalmente profunda
+10006336,Breathing abnormally shallow,Anomal oberflaechliche Atmung,Respirazione anormale superficiale,Respiração anormalmente superficial,Respiración anormalmente superficial
+10006337,Breathing arrested,Atemstillstand,Arresto della respirazione,Paragem respiratória,Parada de la respiración
+10006338,Breathing difficult,Atmung erschwert,Difficoltà nella respirazione,Dificuldade da respiração,Dificultad para respirar
+10006342,Breathing shallow,Atmung oberflaechlich,Respirazione superficiale,Respiração superficial,Respiración superficial
+10012791,Difficulty breathing,Schwierigkeiten beim Atmen,Respirazione difficoltosa,Dificuldade em respirar,Dificultad para respirar
+10021696,Increased work of breathing,Vermehrte Anstrengung beim Atmen,Lavoro respiratorio aumentato,Trabalho respiratório aumentado,Aumento del esfuerzo para respirar
+10023552,Labored breathing,Muehsames Atmen,Respirazione difficoltosa,Respiração difícil,Respiración trabajosa
+10023556,Laboured breathing,Muehsame Atmung,Respirazione faticosa,Respiração difícil,Respiración laboriosa
+10040533,Shallow breathing,Oberflaechliche Atmung,Respiro superficiale,Respiração superficial,Respiración superficial
+10076213,Irregular breathing,Unregelmaessige Atmung,Respirazione irregolare,Respiração irregular,Respiración irregular
+10078736,Abnormal breathing,Anomales Atmen,Respirazione anormale,Respiração anormal,Respiración anormal
+10000447,Aching in knees,Schmerzen in den Knien,Dolore alle ginocchia,Moinha nos joelhos,Dolor en las rodillas
+10000448,Aching in limb,Schmerz in einer Gliedmasse,Dolore a un arto,Moinha no membro,Dolor de miembro
+10000449,Aching joints,Schmerzende Gelenke,Dolore articolare,Moinha nas articulações,Dolor en las articulaciones
+10000450,"Aching pain in hands, forearms, elbows","Schmerz in Haenden, Unterarmen, Ellbogen","Dolenza generalizzata alle mani, agli avambracci, ai gomiti","Moinha nas mãos, antebraços, cotovelos","Dolor en manos, antebrazos y codos"
+10008462,Chest aching,"Brust, schmerzend",Dolore al torace,Dor torácica surda,Dolor de pecho
+10062428,Generalized aching,Generalisierter Schmerz,Dolore generalizzato,Moinha geral,Sensación de dolor generalizada
+10070255,Coronavirus test positive,Coronavirus-Test positiv,Test per Coronavirus positivo,Teste do coronavírus positivo,Prueba de Coronavirus positiva
+10051905,Coronavirus infection,Coronavirus-Infektion,Infezione da Coronavirus,Infecção por coronavírus,Infección por Coronavirus
